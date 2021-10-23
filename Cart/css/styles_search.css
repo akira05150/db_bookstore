@@ -1,0 +1,282 @@
+html,body {
+	font-family: "Segoe UI", sans-serif;
+	color: black;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.f {
+	display: flex;
+	align-items: center;
+	width: 64.8vw;
+}
+
+.bar {
+	background-color: #f5f7fb;
+	height: 15.3vh;
+	display: flex;
+	align-items: center;
+}
+
+a.home {
+	color: white;
+	background-color: #393d45;
+	text-align: center;
+	text-decoration: none;
+	line-height: 15.3vh;
+	height: 15.3vh;
+	width: 11.25vw;
+	font-size: 30px;
+	display: inline-block;
+}
+
+input[type="text"].search {
+	background-color: #fcfafa;
+	font-size: 32px;
+	width: 40vw;
+	height: 8.5vh;
+	padding: 20px 24px;
+	margin-left: 7.5vw;
+	border: 1px solid #9299a6;
+	border-radius: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	outline: none;
+}
+
+input[type="submit"].search_icon {
+	background: url("../img/search.png") no-repeat;
+	width: 3.125vw;
+	height: 3.125vw;
+	background-size: 3.125vw 3.125vw;
+	margin-left: 1.8vw;
+	border: none;
+	cursor: pointer;
+}
+
+a.goCart_icon {
+	background: url("../img/shopping-cart.png") no-repeat;
+	width: 3.125vw;
+	height: 3.125vw;
+	background-size: 3.125vw 3.125vw;
+
+	border: none;
+	cursor: pointer;
+}
+
+
+input[type="button"].login {
+	width: 9.74vw;
+	height: 6.3vh;
+	margin-left: 3.6vw;
+	font-size: 24px;
+	color: white;
+	background-color: #393d45;
+}
+
+input[type="button"].login:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+.col{
+	/* 讓內容自適應高度 */
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+.content {
+	flex-grow: 1;
+
+	/* 橫向排版 */
+	display: flex;
+}
+
+.nav_bar {
+	background-color: #f5f7fb;
+	width: 11.25vw;
+	display: inline-block;
+	height: 100%;
+
+
+	flex-direction: column;
+    height: 100%; padding: 0;
+}
+
+
+.book_content{
+	height: 100%;
+    margin-left: 12.63vw;
+}
+
+
+.book {
+	margin-top: 6.85vh;
+	display: flex;
+}
+
+.cover {
+	width: 15.2vw;
+	height: 18.85vw;
+	display: inline-block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.info {
+	margin-left: 2.6vw;
+	display: inline-block;
+	margin-top: 20px;
+	width: 32.2vw;
+}
+
+.price {
+	font-size: 20px;
+	font-weight: bold;
+	color: #393d45;
+	margin: 0;
+	margin-bottom: 2vh;
+}
+
+.detail {
+	font-size: 20px;
+	color: #393d45;
+	margin: 0;
+	margin-bottom: 2vh;
+}
+
+.add_book {
+	font-size: 18px;
+	color: white;
+	background-color: #eb4242;
+	margin: 0;
+	margin-top: 1.6vh;
+	display: inline-block;
+	padding: 1.76vh 2.24vw;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	box-shadow: 0px 2px 0px #757575;
+}
+
+.add_book:active {
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+	box-shadow: 0 1px 0 #757575;
+}
+
+.stock {
+	font-size: 18px;
+	color: #393d45;
+	margin: 0;
+	margin-left: 2.13vw;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.article{
+	/* margin-left: 10vw; */
+	margin-bottom: 10vh;
+	width: 61.7vw;
+}
+
+.content_title {
+	font-size: 30px;
+	font-weight: bold;
+	margin:0;
+	margin-top: 20vh;
+}
+
+.divider2 {
+	background-color: #393d45;
+	height: 2px;
+	padding: 0;
+	margin-top: 2vh;
+}
+
+.content_article{
+	margin-top: 40px;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+
+.title_text{
+	font-size: 30px;
+	color: #393d45;
+	text-align: left;
+	/* margin-left: 13.2vw; */
+	margin-top: 10.5vh;
+	margin-bottom: 0;
+    font-weight: bold;
+}
+
+.divider {
+	background-color: #393d45;
+	width: 12.2vw;
+	height: 1.2px;
+	/* margin-left: 13.2vw; */
+	padding: 0;
+	margin-top: 15.5px;
+}
+
+.search_num {
+    color: #393d45;
+    margin: 0;
+    margin-top: 2vh;
+    font-size: 24px;
+}
+
+
+ a.title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #393d45;
+	margin: 0;
+	margin-bottom: 2vh;
+    text-decoration: none;
+    display: block;
+}
+
+a.title:hover{
+  text-decoration: underline;
+}
+
+.divider_long {
+	background-color: #393d45;
+    opacity: 18%;
+	width: 68.75vw;
+	height: 1.2px;
+	padding: 0;
+	margin-top: 7vh;
+}
+
+/* Page */
+
+.page_container{
+
+   text-align: center;
+}
+.pagination {
+  display: inline-block;
+  margin:9.8vh;
+}
+
+.pagination a {
+  color: #393D45;
+  font-size: 24px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #EB4242;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd ;}
